@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    height: 500px;
+    width:50%;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 10px 10px 25px -8px rgba(0,0,0,0.75);
+}
+
+.image{
+    width:60%;
+    background: url(email-3249062_1280.png) center center/cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribe-area{
+    padding:40px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top:10px;
+    right:10px;
+    width: 40px;
+    height: 40px;
+}
+
+.form-control input,button{
+    padding:15px 10px;
+    display: block;
+    width:100%;
+    font-size: large;
+    border-radius: 3px;
+    border: none;
+}
+
+.form-control input{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.form-control button{
+    margin-top: 20px;
+    background-color: #6690BC;
+    color: white;
+    font-size: x-large;
+}
+
+.form-area p{
+    text-align: center;
+}
